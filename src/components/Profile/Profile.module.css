@@ -1,0 +1,31 @@
+.container {
+  max-width: 768px;
+  border: 4px solid black;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.userName {
+  font-weight: 700;
+  color: black;
+}
+
+.tagName {
+  color: gray;
+}
+
+.locationStyle {
+  color: gray;
+}
+
+.statsList {
+  font-weight: bold;
+}

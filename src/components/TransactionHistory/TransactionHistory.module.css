@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.container th,
+.container td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.container th {
+  background-color: gray;
+  font-weight: bold;
+  color: white;
+}
+
+.container tbody tr:nth-child(even) {
+  background-color: gray;
+}
+
+.container tbody tr:nth-child(odd) {
+  background-color: white;
+}
